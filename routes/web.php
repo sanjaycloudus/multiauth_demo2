@@ -49,5 +49,5 @@ Route::group(['prefix'=>'user', 'middleware'=>['isUser','auth','PreventBackHisto
     Route::get('logout',[UserController::class,'logout'])->name('user.logout');
     
 });
-
+//add commentfrom remote 
 
